@@ -64,7 +64,7 @@ public class SeaPortProgram extends JFrame {
     JPanel mainPanelc = new JPanel();
     
     public SeaPortProgram (){
-       
+       System.out.println("testing");
        frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);  
        frame.setSize(400,400);          
        frame.setVisible(true);
